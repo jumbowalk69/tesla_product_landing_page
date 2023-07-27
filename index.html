@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Model S | Tesla</title>
+  <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/48/tesla-logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<style type="text/css">
+
+.text{
+/*  transform: translateY(200%);*/
+  opacity: 0;
+  animation: slide-in-anim 1s ease-in forwards;
+}
+
+@keyframes slide-in-anim {
+  10% {
+    opacity: 0;
+    transform: translateY(42rem);
+  }
+  50% {
+    opacity: 0.5;
+    /*transform: translateY(37rem);*/
+  }
+  75% {
+    opacity: 0.75;
+    /*transform: translateY(35rem);*/
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(33rem);
+  }
+}
+.butt{
+/*  transform: translateY(200%);*/
+  opacity: 0;
+  animation: slide-in-anim-butt 1s ease-in forwards;
+}
+
+@keyframes slide-in-anim-butt {
+  10% {
+    opacity: 0;
+    transform: translateY(45rem);
+  }
+  50% {
+    opacity: 0.5;
+    /*transform: translateY(37rem);*/
+  }
+  75% {
+    opacity: 0.75;
+    /*transform: translateY(35rem);*/
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(38rem);
+  }
+}
+
+.tc{
+/*  transform: translateY(200%);*/
+  opacity: 0;
+  animation: slide-in-anim-tc 2s ease-in forwards;
+}
+
+@keyframes slide-in-anim-tc {
+  10% {
+    opacity: 0;
+    transform: translateY(55rem);
+  }
+  50% {
+    opacity: 0.5;
+    /*transform: translateY(37rem);*/
+  }
+  75% {
+    opacity: 0.75;
+    /*transform: translateY(35rem);*/
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(42rem);
+  }
+}
+
+.slideanim {
+    visibility:hidden;
+    visibility:visible\9;/*For old IE browsers IE6-8 */
+}
+.slideanim.slide {                  
+    visibility: visible;                  
+    animation: slide 1s;
+}
+.slideanim::after {
+    /* useful when its child elements are float:left; */
+    content: "";
+    display: table;
+    clear: both;
+}
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(25%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    } 
+}
+
+
+
+</style>
+
+</head>
+<body style="background-color: #000;">
+  <nav class="navbar navbar-expand-lg fixed-top" aria-label="Fifth navbar example" style="margin-top: -0.8rem; margin-left: 2rem; margin-right: 1rem;">
+    <div class="container-fluid justify-content-between">
+      <div>
+        <a class="navbar-brand" href="#"><img src="logo.png" height="60px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      </div>
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+        <ul class="navbar-nav">
+          <li class="nav-item" style="margin-right: 0.6rem;">
+            <a class="nav-link active" aria-current="page" href="#" style="font-weight: 600; color: #fff;">Model S</a>
+          </li>
+          <li class="nav-item" style="margin-left: 0.6rem; margin-right: 0.6rem;">
+            <a class="nav-link active" aria-current="page" href="#" style="font-weight: 600; color: #fff;">Model 3</a>
+          </li>
+          <li class="nav-item" style="margin-left: 0.6rem; margin-right: 0.6rem;">
+            <a class="nav-link active" aria-current="page" href="#" style="font-weight: 600; color: #fff;">Model X</a>
+          </li>
+          <li class="nav-item" style="margin-left: 0.6rem; margin-right: 0.6rem;">
+            <a class="nav-link active" aria-current="page" href="#" style="font-weight: 600; color: #fff;">Model Y</a>
+          </li>
+          <li class="nav-item" style="margin-left: 0.6rem; margin-right: 0.6rem;">
+            <a class="nav-link active" aria-current="page" href="#" style="font-weight: 600; color: #fff;">Solar Roof</a>
+          </li>
+          <li class="nav-item" style="margin-left: 0.6rem; margin-right: 0.6rem;">
+            <a class="nav-link active" aria-current="page" href="#" style="font-weight: 600; color: #fff;">Solar Panels</a>
+          </li>
+          <li class="nav-item" style="margin-left: 0.6rem;">
+            <a class="nav-link active" aria-current="page" href="#" style="font-weight: 600; color: #fff;">Powerwall</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+          <ul class="navbar-nav">
+            <li class="nav-item" style="margin-right: 0.6rem;">
+              <a class="nav-link active" aria-current="page" href="#" style="font-weight: 600; color: #fff;">Shop</a>
+            </li>
+            <li class="nav-item" style="margin-left: 0.6rem; margin-right: 0.6rem;">
+              <a class="nav-link active" aria-current="page" href="#" style="font-weight: 600; color: #fff;">Account</a>
+            </li>
+            <li class="nav-item" style="margin-left: 0.6rem;">
+              <a class="nav-link active" aria-current="page" href="#" style="font-weight: 600; color: #fff;">Menu</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- slideanim slide -->
+
+  <div class="container-fluid m-0 p-0">
+    <div class="row m-0 p-0">
+      <div class="col-12 m-0 p-0">
+        <video autoplay muted loop width="100%">
+          <source src="https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto/Model-S-Main-Hero-Desktop-LHD-Animation.webm" type="video/webm">
+        </video>
+      </div>
+      <div class="z-1 position-absolute row m-0 p-0"> 
+        <div class="col-12" style="color: #fff;"> 
+          <h1 class="d-flex justify-content-center" style="font-weight: 700; margin-top: 7rem;">Model S</h1>
+          <h6 class=" d-flex justify-content-center m-0 p-0" style="font-weight: 600;"><u>Explore Inventory</u></h6>
+        </div>
+      </div>
+      <div class="z-1 position-absolute d-flex justify-content-center row m-0 p-0" style="color: #fff;"> 
+        <div class="col-1 m-0 p-0 text">
+          <h4 style="text-align: center;">396 mi</h4>
+          <p style="text-align: center; font-size: 14px; font-weight: 600;">Range (EPA est.)</p>
+        </div>
+        <div class="col-1 m-0 p-0 text" style="animation-delay: 0.2s;">
+          <h4 style="text-align: center;">1.99 s</h4>
+          <p style="text-align: center; font-size: 14px; font-weight: 600;">0-60 mph*</p>
+        </div>
+        <div class="col-1 m-0 p-0 text" style="animation-delay: 0.4s;">
+          <h4 style="text-align: center;">200 mph</h4>
+          <p style="text-align: center; font-size: 14px; font-weight: 600;">Top Speed</p>
+        </div>
+        <div class="col-1 m-0 p-0 text" style="animation-delay: 0.6s;">
+          <h4 style="text-align: center;">1,020 hp</h4>
+          <p style="text-align: center; font-size: 14px; font-weight: 600;">Peak Power</p>
+        </div>
+      </div>
+      <div class="z-1 position-absolute d-flex justify-content-center row m-0 p-0 butt" style="color: #fff; animation-delay: 0.9s;"> 
+        <button type="button" class="btn btn-light col-2" style="border: 3px solid #fff; margin-right: 0.5rem; font-weight: 600;">Order Now</button>
+        <button type="button" class="btn btn-outline-light col-2" style="border: 3px solid; margin-left: 0.5rem; font-weight: 600;">Demo Drive</button>
+      </div>
+      <div class="z-1 position-absolute d-flex justify-content-center row m-0 p-0 tc" style="color: #fff;"> 
+        <div class="col-12 m-0 p-0 slideanim slide d-flex justify-content-center">
+          <p style="font-weight: 600; font-size: 12px;">Specs displayed are Model S Plaid values.</p>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div class="container-fluid m-0 p-0" style="background-color: #000;">
+    <div class="row m-0 p-0">
+      <div class="col-12 mt-5 mb-5 pt-3 pb-3 d-flex justify-content-center slideanim">
+        <h2 style="color: #fff;">Interior of the Future</h2>
+      </div>
+      <img class="col-12 m-0 p-0" src="Model-S-Interior.jpg" width="100%" height="820px">
+    </div>
+  </div>
+  <div class="container-fluid mt-5 pt-5 mb-5 pb-5" style="background-color: #000;">
+    <div class="row m-0 p-0">
+      <div class="col-12 m-0 p-0 d-flex justify-content-center" style="margin-top: 100px;">
+        <video autoplay muted loop style="border-radius: 5px;">
+          <source src="https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto:best/Model-S-Interior-Carousel-3-Perfect-Environment-Desktop.mp4" type="">
+        </video>
+      </div>
+      <div class="col-12 m-0 p-0">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid m-0 p-2 pb-5" style="background-color: #000;">
+    <div class="row m-0 p-0 d-flex justify-content-center">
+      <div class="col-4 m-0 p-0 d-flex justify-content-center" style="">
+        <img class="slideanim" src="https://digitalassets.tesla.com/tesla-contents/image/upload/h_584,w_1040,c_fit,f_auto,q_auto:best/MS-Interior-Grid-A-Desktop" width="100%" height="300px">
+      </div>
+      <div class="col-4 m-0 p-5 slideanim" style="text-align: justify; color: #fff;">
+        <h6>Stay Connected</h6>
+        <p>Instantly connect with multi-device Bluetooth, or fast charge devices with wireless and 36-watt USB-C charging.</p>
+      </div>
+    </div>
+    <div class="row m-0 pt-5 d-flex justify-content-center">
+      <div class="col-4 m-0 p-5 slideanim" style="text-align: justify; color: #fff;">
+        <h6>Immersive Sound</h6>
+        <p>Instantly connect with multi-device Bluetooth, or fast charge devices with wireless and 36-watt USB-C charging.</p>
+      </div>      
+      <div class="col-4 m-0 p-0 d-flex justify-content-center">
+        <video autoplay muted loop style="width: 100%; height: 300px;">
+          <source src="https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto:best/MS-Interior-Grid-2-Audio-Desktop.mp4">
+        </video>
+      </div>
+    </div>
+    <div class="row m-0 pt-5 d-flex justify-content-center">
+      <div class="col-4 m-0 p-0 d-flex justify-content-center" style="">
+        <img class="slideanim" src="https://digitalassets.tesla.com/tesla-contents/image/upload/h_584,w_1040,c_fit,f_auto,q_auto:best/MS-Interior-Grid-D-Desktop" width="100%" height="300px">
+      </div>
+      <div class="col-4 m-0 p-5 slideanim" style="text-align: justify; color: #fff;">
+        <h6>Room for Everything</h6>
+        <p>With front and rear trunks and fold-flat seats you can fit your bike without taking the wheel off—and your luggage too. Compare Models</p>
+      </div>
+    </div>  
+  </div>
+  <div class="container-fluid mt-5 p-0" style="background-image: url('Model-S-Performance.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat; height: 500px;">
+    <div class="row m-0 p-0 d-flex justify-content-center">
+      <div class="col-3 m-0 p-0 z-1 position-relative slideanim" style="float: left; color: #fff; text-align: center; top: 420px;">
+        <h4>1,020 hp</h4>
+        <p style="font-size: 12px; font-weight: 600;">Peak Power</p>
+      </div>
+      <div class="col-3 m-0 p-0 z-1 position-relative slideanim" style="float: left; color: #fff; text-align: center; top: 420px; animation-duration: 1.5s;">
+        <h4>9.23 s</h4>
+        <p style="font-size: 12px; font-weight: 600;">@155 mph 1/4 mile</p>
+      </div>
+      <div class="col-3 m-0 p-0 z-1 position-relative slideanim" style="float: left; color: #fff; text-align: center; top: 420px; animation-duration: 2s;">
+        <h4>1.99 s</h4>
+        <p style="font-size: 12px; font-weight: 600;">0-60 mph*</p>
+      </div>
+    </div>
+  </div>  
+  <script type="text/javascript" src="float-panel.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
